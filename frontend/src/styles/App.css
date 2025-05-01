@@ -1,0 +1,135 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2 {
+  font-weight: 600;
+  color: #222;
+}
+
+/* App Layout */
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar Styling */
+.MuiDrawer-paper {
+  background-color: #1e293b;
+  color: white;
+  padding-top: 16px;
+}
+
+.MuiDrawer-paper .MuiListItemText-primary {
+  color: #94a3b8;
+}
+
+/* Content Styling */
+.content {
+  flex: 1;
+  padding: 2em;
+  background-color: white;
+  border-left: 1px solid #e2e8f0;
+  overflow-y: auto;
+}
+
+/* AppBar Styling */
+.MuiAppBar-root {
+  background-color: #1e293b;
+}
+
+.MuiButton-root {
+  color: white;
+}
+
+.MuiButton-root:hover {
+  background-color: #334155;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .MuiDrawer-paper {
+    width: 200px;
+  }
+}
+
+/* App.css */
+
+.landing-page {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.landing-header {
+  background-color: #282c34;
+  color: white;
+  padding: 50px 0;
+}
+
+.landing-header h1 {
+  font-size: 3em;
+}
+
+.landing-header p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.buttons-container {
+  margin-top: 30px;
+}
+
+.cta-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 0 10px;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+.cta-button.secondary {
+  background-color: #6c757d;
+}
+
+.cta-button.secondary:hover {
+  background-color: #5a6268;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+  background-color: #f8f9fa;
+}
+
+.feature {
+  width: 30%;
+}
+
+.feature h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1em;
+}
+
+.landing-footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  margin-top: 50px;
+}
